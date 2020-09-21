@@ -1,0 +1,141 @@
+body
+{
+  margin: 0px;
+  text-align: center;
+  font-family: ;
+}
+
+.first-container
+{
+  background-color: #b2ebf2;
+  /* height: 200px; */
+  position:relative;
+  padding-top: 50px;
+}
+
+.second-container
+{
+  margin: 100px 0px;
+}
+
+.dev
+{
+  text-decoration: underline;
+}
+
+p
+{
+  display: inline-block;
+  font-family: 'Dancing Script', cursive;
+  width: 50%;
+}
+
+h1
+{
+  font-family: 'EB Garamond', serif;
+  font-size: 90px;
+  margin: 50px auto 0px auto;
+  color: #66BFBF;
+  /* 16px=100%=1em.......wherepx is static and %and rem are dynamic*/
+  /* this font will get added to what we have provided in body, though we have not yet,
+  thus to ignore the parent fornt size, use rem inspite of em which is in the latest version of CSS that is, CSS3*/
+}
+
+h2
+{
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3
+{
+  color: #11999E;
+}
+
+a
+{
+  color: #11999E;
+  margin: 0px 20px 0px 20px;
+  text-decoration: none;
+}
+a:hover
+{
+  color: #eaf6f6;
+}
+span
+{
+  text-decoration: underline;
+}
+
+.top-cloud
+{
+  position: absolute;
+  right: 30%;
+  height: 50px;
+  width: 50px;
+}
+
+.bottom-cloud
+{
+  position: absolute;
+  left:30%;
+  height: 100px;
+  width: 100px;
+}
+
+.mountain,.aashi
+{
+  height: 200px;
+}
+
+.maths
+{
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+.travel
+{
+  height: 200px;
+  float: right;
+  margin-left: 20px;
+}
+
+.skills
+{
+  text-align: left;
+  line-height: 2;
+  width: 50%;
+  margin: auto;
+}
+.skill1
+{
+  margin: 50px auto 50px auto;
+}
+
+.skill2
+{
+  margin: 0px auto 50px auto;
+}
+
+hr{
+  border :dotted red 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 14%;
+}
+
+.footer
+{
+  background-color: #66BFBF;
+  padding: 20px 0px 20px 0px;
+}
+
+.last-text
+{
+  color: #eaf6f6;
+  font-size: 0.75rep;
+  padding: 20px 0px;
+}
